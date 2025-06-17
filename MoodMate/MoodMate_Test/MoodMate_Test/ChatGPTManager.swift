@@ -37,10 +37,10 @@ class ChatGPTManager {
         request.setValue("Bearer \(apiKey)", forHTTPHeaderField: "Authorization")
         request.setValue("application/json", forHTTPHeaderField: "Content-Type")
         request.httpBody = jsonData
-        
-        print("🚀 ChatGPT 요청 시작")
-        print("📦 Headers: \(request.allHTTPHeaderFields ?? [:])")
-        print("🧾 Body: \(String(data: jsonData, encoding: .utf8) ?? "")")
+
+        print("ChatGPT 요청 시작") // 디버그 라인 진행. 문제가 뭔지 확인해야 함. 에러가 있음
+        print("Headers: \(request.allHTTPHeaderFields ?? [:])")
+        print("Body: \(String(data: jsonData, encoding: .utf8) ?? "")")
         
         URLSession.shared.dataTask(with: request) { data, response, error in
             if let error = error {
