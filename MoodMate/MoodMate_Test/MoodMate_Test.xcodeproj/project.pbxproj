@@ -7,172 +7,134 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2277D2912E01AC8C00C9D674 /* MoodMateApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2277D28E2E01AC8C00C9D674 /* MoodMateApp.swift */; };
-		2277D2922E01AC8C00C9D674 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2277D28A2E01AC8C00C9D674 /* Preview Assets.xcassets */; };
-		2277D2932E01AC8C00C9D674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2277D28C2E01AC8C00C9D674 /* Assets.xcassets */; };
-		2277D29A2E01AD1900C9D674 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2277D2992E01AD1900C9D674 /* ListView.swift */; };
-		2277D29C2E01AEC700C9D674 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2277D29B2E01AEC700C9D674 /* ListRowView.swift */; };
-		2277D29E2E01B0F700C9D674 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2277D29D2E01B0F700C9D674 /* AddView.swift */; };
+		221F0CD22E01E62C00A302D9 /* DGCharts in Frameworks */ = {isa = PBXBuildFile; productRef = 221F0CD12E01E62C00A302D9 /* DGCharts */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2277D2792E01AC5800C9D674 /* MoodMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2277D28A2E01AC8C00C9D674 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		2277D28C2E01AC8C00C9D674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2277D28E2E01AC8C00C9D674 /* MoodMateApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodMateApp.swift; sourceTree = "<group>"; };
-		2277D2992E01AD1900C9D674 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
-		2277D29B2E01AEC700C9D674 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
-		2277D29D2E01B0F700C9D674 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		2277D2B42E01CCB300C9D674 /* MoodMate_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoodMate_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		2277D2B62E01CCB300C9D674 /* MoodMate_Test */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = MoodMate_Test;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
 /* Begin PBXFrameworksBuildPhase section */
-		2277D2762E01AC5800C9D674 /* Frameworks */ = {
+		2277D2B12E01CCB300C9D674 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				221F0CD22E01E62C00A302D9 /* DGCharts in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2277D2702E01AC5800C9D674 = {
+		2277D2AB2E01CCB300C9D674 = {
 			isa = PBXGroup;
 			children = (
-				2277D28F2E01AC8C00C9D674 /* MoodMate */,
-				2277D27A2E01AC5800C9D674 /* Products */,
+				2277D2B62E01CCB300C9D674 /* MoodMate_Test */,
+				2277D2B52E01CCB300C9D674 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		2277D27A2E01AC5800C9D674 /* Products */ = {
+		2277D2B52E01CCB300C9D674 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2277D2792E01AC5800C9D674 /* MoodMate.app */,
+				2277D2B42E01CCB300C9D674 /* MoodMate_Test.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		2277D28B2E01AC8C00C9D674 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				2277D28A2E01AC8C00C9D674 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		2277D28F2E01AC8C00C9D674 /* MoodMate */ = {
-			isa = PBXGroup;
-			children = (
-				2277D2A02E01BC0100C9D674 /* New Group */,
-				2277D2942E01AC9B00C9D674 /* View */,
-				2277D28B2E01AC8C00C9D674 /* Preview Content */,
-				2277D28C2E01AC8C00C9D674 /* Assets.xcassets */,
-				2277D28E2E01AC8C00C9D674 /* MoodMateApp.swift */,
-			);
-			path = MoodMate;
-			sourceTree = "<group>";
-		};
-		2277D2942E01AC9B00C9D674 /* View */ = {
-			isa = PBXGroup;
-			children = (
-				2277D2992E01AD1900C9D674 /* ListView.swift */,
-				2277D29B2E01AEC700C9D674 /* ListRowView.swift */,
-				2277D29D2E01B0F700C9D674 /* AddView.swift */,
-			);
-			path = View;
-			sourceTree = "<group>";
-		};
-		2277D2A02E01BC0100C9D674 /* New Group */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2277D2782E01AC5800C9D674 /* MoodMate */ = {
+		2277D2B32E01CCB300C9D674 /* MoodMate_Test */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2277D2872E01AC5A00C9D674 /* Build configuration list for PBXNativeTarget "MoodMate" */;
+			buildConfigurationList = 2277D2C22E01CCB500C9D674 /* Build configuration list for PBXNativeTarget "MoodMate_Test" */;
 			buildPhases = (
-				2277D2752E01AC5800C9D674 /* Sources */,
-				2277D2762E01AC5800C9D674 /* Frameworks */,
-				2277D2772E01AC5800C9D674 /* Resources */,
+				2277D2B02E01CCB300C9D674 /* Sources */,
+				2277D2B12E01CCB300C9D674 /* Frameworks */,
+				2277D2B22E01CCB300C9D674 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MoodMate;
-			packageProductDependencies = (
+			fileSystemSynchronizedGroups = (
+				2277D2B62E01CCB300C9D674 /* MoodMate_Test */,
 			);
-			productName = MoodMate;
-			productReference = 2277D2792E01AC5800C9D674 /* MoodMate.app */;
+			name = MoodMate_Test;
+			packageProductDependencies = (
+				221F0CD12E01E62C00A302D9 /* DGCharts */,
+			);
+			productName = MoodMate_Test;
+			productReference = 2277D2B42E01CCB300C9D674 /* MoodMate_Test.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2277D2712E01AC5800C9D674 /* Project object */ = {
+		2277D2AC2E01CCB300C9D674 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					2277D2782E01AC5800C9D674 = {
+					2277D2B32E01CCB300C9D674 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
 			};
-			buildConfigurationList = 2277D2742E01AC5800C9D674 /* Build configuration list for PBXProject "MoodMate" */;
+			buildConfigurationList = 2277D2AF2E01CCB300C9D674 /* Build configuration list for PBXProject "MoodMate_Test" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = 2277D2702E01AC5800C9D674;
+			mainGroup = 2277D2AB2E01CCB300C9D674;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				221F0CD02E01E62C00A302D9 /* XCRemoteSwiftPackageReference "Charts" */,
+			);
 			preferredProjectObjectVersion = 77;
-			productRefGroup = 2277D27A2E01AC5800C9D674 /* Products */;
+			productRefGroup = 2277D2B52E01CCB300C9D674 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2277D2782E01AC5800C9D674 /* MoodMate */,
+				2277D2B32E01CCB300C9D674 /* MoodMate_Test */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2277D2772E01AC5800C9D674 /* Resources */ = {
+		2277D2B22E01CCB300C9D674 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2277D2922E01AC8C00C9D674 /* Preview Assets.xcassets in Resources */,
-				2277D2932E01AC8C00C9D674 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2277D2752E01AC5800C9D674 /* Sources */ = {
+		2277D2B02E01CCB300C9D674 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2277D29E2E01B0F700C9D674 /* AddView.swift in Sources */,
-				2277D2912E01AC8C00C9D674 /* MoodMateApp.swift in Sources */,
-				2277D29A2E01AD1900C9D674 /* ListView.swift in Sources */,
-				2277D29C2E01AEC700C9D674 /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		2277D2852E01AC5A00C9D674 /* Debug */ = {
+		2277D2C02E01CCB500C9D674 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -235,7 +197,7 @@
 			};
 			name = Debug;
 		};
-		2277D2862E01AC5A00C9D674 /* Release */ = {
+		2277D2C12E01CCB500C9D674 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -291,16 +253,17 @@
 			};
 			name = Release;
 		};
-		2277D2882E01AC5A00C9D674 /* Debug */ = {
+		2277D2C32E01CCB500C9D674 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MoodMate/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MoodMate_Test/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MoodMate-Test-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -311,7 +274,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jdh.hansung.ac.kr.MoodMate;
+				PRODUCT_BUNDLE_IDENTIFIER = "jdh.hansung.ac.kr.MoodMate-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -319,16 +282,17 @@
 			};
 			name = Debug;
 		};
-		2277D2892E01AC5A00C9D674 /* Release */ = {
+		2277D2C42E01CCB500C9D674 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"MoodMate/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"MoodMate_Test/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MoodMate-Test-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -339,7 +303,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = jdh.hansung.ac.kr.MoodMate;
+				PRODUCT_BUNDLE_IDENTIFIER = "jdh.hansung.ac.kr.MoodMate-Test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -350,25 +314,44 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2277D2742E01AC5800C9D674 /* Build configuration list for PBXProject "MoodMate" */ = {
+		2277D2AF2E01CCB300C9D674 /* Build configuration list for PBXProject "MoodMate_Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2277D2852E01AC5A00C9D674 /* Debug */,
-				2277D2862E01AC5A00C9D674 /* Release */,
+				2277D2C02E01CCB500C9D674 /* Debug */,
+				2277D2C12E01CCB500C9D674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2277D2872E01AC5A00C9D674 /* Build configuration list for PBXNativeTarget "MoodMate" */ = {
+		2277D2C22E01CCB500C9D674 /* Build configuration list for PBXNativeTarget "MoodMate_Test" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2277D2882E01AC5A00C9D674 /* Debug */,
-				2277D2892E01AC5A00C9D674 /* Release */,
+				2277D2C32E01CCB500C9D674 /* Debug */,
+				2277D2C42E01CCB500C9D674 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		221F0CD02E01E62C00A302D9 /* XCRemoteSwiftPackageReference "Charts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/danielgindi/Charts.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		221F0CD12E01E62C00A302D9 /* DGCharts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 221F0CD02E01E62C00A302D9 /* XCRemoteSwiftPackageReference "Charts" */;
+			productName = DGCharts;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
-	rootObject = 2277D2712E01AC5800C9D674 /* Project object */;
+	rootObject = 2277D2AC2E01CCB300C9D674 /* Project object */;
 }
